@@ -26,7 +26,7 @@
         </ul>
     </nav>
     
-    </!--Main Intro Section--/
+    <!--Main Intro Section-->
   <main id="main-doc">
     <section class="main-section" id="introduction">
       <header>Introduction</header>
@@ -49,14 +49,27 @@
             <li>Animation Duration</li>
             <li>Animation Fill Mode</li>
           </ul>
-        
     </section>
-  </main>
-        
-  </div>         
-     
- </body>
-  
+    
+      <!--Animation-Name Section-->
+    <section class="main-section" id="Animation-Name">
+      <p>The animation-name CSS property sets one or more animations to apply to an element. 
+      Each name is an @keyframes at-rule that sets the property values for the animation sequence.</p>
+      <p>A special keyword denoting no keyframes. It can be used to deactivate an animation without 
+      changing the ordering of the other identifiers, or to deactivate animations coming from the cascade.</p>
+      
+      <code>/* Single animation */
+        animation-name: none;
+        animation-name: test_05;
+        animation-name: -specific;
+        animation-name: sliding-vertically;</code>
 
-  
+        <code>/* Multiple animations */
+        animation-name: test1, animation4;
+        animation-name: none, -moz-specific, sliding;</code>
+    </section>
+    
+  </main>
+  </div>
+ </body>
 </html>
