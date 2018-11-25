@@ -53,6 +53,7 @@
     
       <!--Animation-Name Section-->
     <section class="main-section" id="Animation-Name">
+      <header>Animation Name</header>
       <p>The animation-name CSS property sets one or more animations to apply to an element. 
       Each name is an @keyframes at-rule that sets the property values for the animation sequence.</p>
       <p>A special keyword denoting no keyframes. It can be used to deactivate an animation without 
@@ -67,6 +68,21 @@
         <code>/* Multiple animations */
         animation-name: test1, animation4;
         animation-name: none, -moz-specific, sliding;</code>
+    </section>
+    
+    <section class="main-section" id="Animation-Delay">
+      <header>Animation Delay</header>
+        <p>The animation-delay CSS property sets when an animation starts. 
+        The animation can start later, immediately from its beginning, or immediately and partway through the animation.</p>
+        <p>It is often convenient to use the shorthand property animation to set all animation properties at once.</p>
+        <code>/* Single animation */
+animation-delay: 3s;
+animation-delay: 0s;
+animation-delay: -1500ms;
+
+/* Multiple animations */
+animation-delay: 2.1s, 480ms;</code>
+      
     </section>
     
   </main>
