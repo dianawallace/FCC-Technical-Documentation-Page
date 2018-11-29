@@ -1,0 +1,7 @@
+div.main-body {
+  display: grid;
+  grid-template-columns: minmax(250, auto) 1fr;
+  grid-template-areas: "navbar mainContent";
+  grid-gap: 40px;
+}
+
