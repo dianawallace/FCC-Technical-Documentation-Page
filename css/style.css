@@ -1,13 +1,24 @@
-main-body {
+.main-body {
   display: grid;
-  grid-template-columns: minmax(250, auto) 1fr;
+  grid-template-columns: 1fr 4fr;
   grid-template-areas: "navbar mainContent";
   grid-gap: 40px;
 }
 
-#navbar {
+#nav-bar {
   grid-area: navbar;
   position: fixed;
 }
 
+#main-doc {
+  grid-area: mainContent;
+}
 
+#nav-bar a {
+  display: block;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 1px -25px;
+  text-decoration: none;
+  color: black;
+}
