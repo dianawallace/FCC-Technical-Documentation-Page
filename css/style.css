@@ -22,3 +22,11 @@
   text-decoration: none;
   color: black;
 }
+
+header {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+
