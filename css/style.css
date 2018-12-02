@@ -29,4 +29,8 @@ header {
   margin: 25px 0;
 }
 
-
+code {
+  background: #CCC;
+  display: block;
+  padding: 10px;
+}
