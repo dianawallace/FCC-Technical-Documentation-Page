@@ -1,3 +1,5 @@
+
+  /***Main Section Grid***/
 .main-body {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -5,13 +7,14 @@
   grid-gap: 40px;
 }
 
+#main-doc {
+  grid-area: mainContent;
+}
+
+  /***Navbar***/
 #nav-bar {
   grid-area: navbar;
   position: fixed;
-}
-
-#main-doc {
-  grid-area: mainContent;
 }
 
 #nav-bar a {
@@ -35,6 +38,7 @@ code {
   padding: 10px;
 }
 
+  /***Media Query***/
 @media screen and (max-width: 750px) {
   .main-body {
     grid-template-columns: 1fr;
