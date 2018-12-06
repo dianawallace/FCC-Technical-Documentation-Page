@@ -3,7 +3,7 @@
 FreeCodeCamp: Responsive Web Design Projects - Build a Technical Documentation Page
 
 This is the fourth of the Responsive Web Design Projects in Free Code Camp. The objective was to build a technical documentation page that meets Free Code Camp's user stories requirements.
-The objective was to build a survey form that meets Free Code Camp's user stories requirements.
+
 
 I used HTML5, CSS3, CSS Grid, and Bootstrap 4.
 
