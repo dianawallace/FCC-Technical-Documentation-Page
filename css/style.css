@@ -4,7 +4,11 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-areas: "navbar mainContent";
-  grid-gap: 40px;
+  grid-gap: 160px;
+}
+
+.main-section {
+  margin: 15px;
 }
 
 #main-doc {
@@ -43,11 +47,18 @@ code {
   .main-body {
     grid-template-columns: 1fr;
     grid-template-areas: "navbar" "mainContent";
-  }  
-}
+  }
+    
+  #nav-bar {
+    position: inherit;
+  }
+    
+  .main-section {
+    margin-top: 150px;
+   }
+  }
 
-#nav-bar {
-  position: inherit;
-}
+
+
 
 
